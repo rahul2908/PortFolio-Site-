@@ -1,0 +1,74 @@
+.full{
+  padding: 10px;
+  display: block;
+}
+html{
+  background-color:#FFCDD2;
+}
+meta{
+  display: block;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.logo{
+  height: 250px;
+  width: 50%;
+}
+.header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+.details{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+.name{
+  font-family: sans-serif;
+  font-size: large;
+  bottom: 20px;
+  position: absolute;
+  right: 0;
+}
+.designation{
+  font-family: sans-serif;
+  font-size: small;
+  top: 50px;
+  position: absolute;
+  right: 0;
+}
+.abndpic{
+  position: relative;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+.githublink{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.githublink > div {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.text1{
+  padding: 10px;
+  font-size: 30px;
+}
+.content{
+  width: auto;
+}
+.ProjectList{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.ProjectList > div {
+  text-align: center;
+  margin: auto;
+  width: 300px;
+}
